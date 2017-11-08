@@ -1,0 +1,76 @@
+h1 {
+  font-size: 200px;
+  text-align: center;
+   background-color: #FDFFFC;
+}
+
+.menu {
+	font-family: 'Merriweather', serif;
+	list-style-type: none;
+	width: 1000px;	
+	padding: 0;
+	margin: 0 auto;
+	background-color: black;
+	text-align: center;
+	display: flex;
+	flex-wrap: flex;
+	position: absolute;
+	left: 200px;
+	top: 20px;
+}
+
+.menu li {
+	width: 250px; 
+	height: 50px;
+	font-size: 23px;
+	text-align: center;
+	vertical-align: center;
+	line-height: 50px;
+}
+
+.menu a {
+	text-decoration: none;
+	color: white;
+	display: block;
+	width: 100%;
+	height: 50px;
+}
+
+.menu a:hover {
+	background-color: #BA2D0B;
+	color: white;
+}
+
+.firstimage {
+	position: absolute;
+	top: 100px;
+	left: 200px;
+}
+
+.welcome {
+	position: absolute;
+	width: 1000px;
+	top: 500px;
+	left: 200px;
+}
+.logo {
+	width: 20%;
+	height: 20%;
+	left: 30px;
+	background-image: url('wulogo.gif');
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+}
+
+.logo a {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+/* .menu a:visited {
+	color: purple;
+} */
